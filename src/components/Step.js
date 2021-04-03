@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/Step.scss";
 
-const Step = ({ step, setStep }) => {
+const Step = ({ step, setStep, currentStep, setCurrentStep }) => {
   const handleStep = (e) => {
     setStep(e.target.value);
+    setCurrentStep(parseInt(e.target.value));
   };
 
   return (
