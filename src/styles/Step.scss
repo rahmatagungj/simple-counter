@@ -1,0 +1,11 @@
+input[type="text"] {
+  border: 0px solid black;
+  border-radius: 0.5em;
+  background-color: #fafafa;
+  padding: 5px 10px;
+  text-align: left;
+  max-width: 100px;
+  &:focus {
+    outline: none;
+  }
+}

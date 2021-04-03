@@ -1,0 +1,31 @@
+.action {
+  display: flex;
+  flex-direction: row;
+  width: 180px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 0.5em;
+  margin: 10px auto;
+  margin-right: 3px;
+  &:focus {
+    outline: none;
+  }
+  &.minus {
+    background-color: #e48257;
+    &:hover {
+      background-color: #ff9060;
+    }
+  }
+  &.plus {
+    background-color: #57947a;
+    &:hover {
+      background-color: #6fbb9a;
+    }
+  }
+}

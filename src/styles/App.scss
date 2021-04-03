@@ -1,0 +1,27 @@
+* {
+  background-color: #f2edd7;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: #393232;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24vh;
+  color: #3a6351;
+  h3 {
+    font-size: 7rem;
+  }
+  .zero {
+    color: rgb(255, 104, 104);
+  }
+}
+
+.props {
+  padding: 10px;
+  margin-top: 50px;
+}
